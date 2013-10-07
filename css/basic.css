@@ -8,7 +8,7 @@ body
 #container
 {
     width:600px;
-    height:650px;
+    height:640px;
     background-color:#e8e5d1;
     background-image:url('pics/coffey.jpg');
     background-repeat:no-repeat;
@@ -134,7 +134,6 @@ img
     font-style:italic;
     margin-left:10px;
     color:#786f66;
-    padding:5px;
 }
 
 #subcontent h1
@@ -148,6 +147,11 @@ img
     line-height:20px;
 }
 
+#subcontent a
+{
+    color:#4f463c;
+}
+
 h1
 {
     margin:10px;
@@ -157,11 +161,11 @@ h1
 
 h2
 {
+    color:#4f463c;
     font-weight:lighter;
     font-family:Times;
     margin:10px;
     font-size:14px
-    
 }
 
 p
