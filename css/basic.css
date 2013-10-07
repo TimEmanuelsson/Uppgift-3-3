@@ -2,11 +2,14 @@ body
 {
     font-family:"Verdana", "Times";
     background-color:#faf8f2;
+    
 }
 
 #container
 {
     width:600px;
+    height:650px;
+    background-color:#e8e5d1;
     background-image:url('pics/coffey.jpg');
     background-repeat:no-repeat;
     margin:auto;
@@ -47,7 +50,6 @@ body
 {
     display:inline;
     text-decoration:none;
-    padding-top:100px;
 }
 
 #menu li a
@@ -66,6 +68,17 @@ body
     margin-left:-27px;
 }
 
+#menu a:hover
+{
+    background-color:#9c9084;
+}
+
+#menu .active a
+{
+    background-color:#e8e5d1;
+    color:#786f66;
+}
+
 #content
 {
     background-color:#e8e5d1;
@@ -79,15 +92,20 @@ body
     float:left;
     width:370px;
     font-size:14px;
-    color:#786f66;
     margin-top:10px;
+    color:#786f66;
+    line-height:20px;
+}
+
+#maincontent h1
+{
+    line-height:40px;
 }
 
 img
 {
     float:left;
-    margin:10px;
-    padding-top:-30px;
+    margin: -5px 5px 5px 10px;
 }
 
 #subcontent
@@ -95,7 +113,7 @@ img
     background-color:#e8e5d1;
     float:right;
     width:229px;
-    font-size:11px;
+    font-size:9px;
     color:#786f66;
     border-left:1px dashed #bfbfbf;
     margin-top:20px;
@@ -116,6 +134,7 @@ img
     font-style:italic;
     margin-left:10px;
     color:#786f66;
+    padding:5px;
 }
 
 #subcontent h1
@@ -126,19 +145,22 @@ img
 #subcontent p
 {
     padding:10px 0px;
+    line-height:20px;
 }
 
 h1
 {
     margin:10px;
     font-family:"Times New Roman";
+    font-weight:lighter;
 }
 
 h2
 {
+    font-weight:lighter;
     font-family:Times;
     margin:10px;
-    font-size:12px
+    font-size:14px
     
 }
 
